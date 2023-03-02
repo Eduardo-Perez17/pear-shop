@@ -7,6 +7,11 @@ import close from '../../assets/img/header/close.png';
 import menu from '../../assets/img/header/menu.png';
 import pear from '../../assets/img/header/pear.png';
 
+// HEADER ARTICLE
+
+import video from '../../assets/img/header-article/video.png';
+import pear_logo from '../../assets/img/header-article/pear.png';
+
 // HEADER
 
 export const MAGNIFYING_GLASS = {
@@ -37,4 +42,16 @@ export const PEAR = {
 export const CLOSE = {
 	img: close,
 	alt: 'icon close',
+};
+
+// HEADER ARTICLE
+
+export const VIDEO = {
+	img: video,
+	alt: 'icon video',
+};
+
+export const PEAR_LOGO = {
+	img: pear_logo,
+	alt: 'logo',
 };
