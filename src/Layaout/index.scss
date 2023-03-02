@@ -1,0 +1,39 @@
+@import '../assets/sass/variable';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: $backgroundBody;
+	color: $color;
+}
+
+.button {
+	background-image: $backgroundButton;
+	border-radius: 4px;
+	border: none;
+	padding: 8px 10px;
+	font-weight: bold;
+	color: $color;
+	text-transform: capitalize;
+}
+
+.grid-father {
+	display: grid;
+	grid-template-columns: 30px 1fr 30px;
+}
+
+.grid-son {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+	.grid-father {
+		grid-template-columns: 60px 1fr 60px;
+	}
+}
